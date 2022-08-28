@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_contact_form_sections",
+  "info": {
+    "displayName": "Contact Form Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contactDesc": {
+      "displayName": "Contact Desc",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.contact-desc",
+      "required": true
+    }
+  }
+}

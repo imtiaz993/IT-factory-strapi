@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_details",
+  "info": {
+    "singularName": "service-detail",
+    "pluralName": "service-details",
+    "displayName": "Service-Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string",
+      "required": true
+    },
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "serviceCard": {
+      "displayName": "services Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.services-card"
+    }
+  }
+}

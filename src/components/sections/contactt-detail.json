@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_contactt_details",
+  "info": {
+    "displayName": "ContacttDetail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sectionDetails": {
+      "type": "string",
+      "required": true
+    },
+    "contactOptions": {
+      "displayName": "Contact Options",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.contact-options",
+      "required": true
+    }
+  }
+}

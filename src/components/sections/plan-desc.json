@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_plan_descs",
+  "info": {
+    "displayName": "PlanDesc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PlanDescriptions": {
+      "displayName": "Plan Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.plan-description",
+      "required": true
+    }
+  }
+}

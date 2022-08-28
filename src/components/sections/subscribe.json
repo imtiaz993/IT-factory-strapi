@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_subscribes",
+  "info": {
+    "displayName": "Subscribe"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "displayName": "buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.buttons"
+    }
+  }
+}

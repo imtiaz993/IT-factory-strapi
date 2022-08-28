@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_aboutpage_first_sections",
+  "info": {
+    "displayName": "AboutpageFirstSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

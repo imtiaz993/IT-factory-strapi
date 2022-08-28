@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_contact_descs",
+  "info": {
+    "displayName": "Contact Desc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sectionDetails": {
+      "type": "richtext",
+      "required": true
+    },
+    "timings": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

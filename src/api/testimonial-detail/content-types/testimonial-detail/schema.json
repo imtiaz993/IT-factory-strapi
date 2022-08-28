@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonial_details",
+  "info": {
+    "singularName": "testimonial-detail",
+    "pluralName": "testimonial-details",
+    "displayName": "Testimonial-Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string",
+      "required": true
+    },
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "clientTestimonials": {
+      "displayName": "client Testimonials",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.client-testimonials"
+    }
+  }
+}

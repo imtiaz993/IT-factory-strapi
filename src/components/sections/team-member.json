@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_team_members",
+  "info": {
+    "displayName": "team member",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "details": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

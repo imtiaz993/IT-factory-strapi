@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_services_cards",
+  "info": {
+    "displayName": "services Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "cardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "cardDetails": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

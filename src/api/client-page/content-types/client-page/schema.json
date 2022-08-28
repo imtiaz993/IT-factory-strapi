@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_pages",
+  "info": {
+    "singularName": "client-page",
+    "pluralName": "client-pages",
+    "displayName": "Client Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ClientPage": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.client-page",
+        "sections.clinet-second-section"
+      ],
+      "required": true
+    }
+  }
+}

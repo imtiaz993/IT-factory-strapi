@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_details",
+  "info": {
+    "singularName": "team-detail",
+    "pluralName": "team-details",
+    "displayName": "Team-Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "teamMembers": {
+      "displayName": "team member",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.team-member",
+      "required": true
+    }
+  }
+}

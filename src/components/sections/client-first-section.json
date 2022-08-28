@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_client_first_sections",
+  "info": {
+    "displayName": "Client First Section"
+  },
+  "options": {},
+  "attributes": {
+    "screenName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

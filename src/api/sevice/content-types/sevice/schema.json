@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sevices",
+  "info": {
+    "singularName": "sevice",
+    "pluralName": "sevices",
+    "displayName": "Sevice Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "plan": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.plan-desc",
+        "sections.service-first-section"
+      ],
+      "required": true
+    },
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sectionDetails": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_plan_descriptions",
+  "info": {
+    "displayName": "Plan Description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "planTitle": {
+      "type": "string",
+      "required": true
+    },
+    "planDetails": {
+      "type": "string",
+      "required": true
+    },
+    "planDesc": {
+      "type": "richtext",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "required": true
+    },
+    "buttonName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

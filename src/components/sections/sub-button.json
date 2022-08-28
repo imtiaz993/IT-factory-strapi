@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_sub_buttons",
+  "info": {
+    "displayName": "sub-button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

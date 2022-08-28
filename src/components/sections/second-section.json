@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_second_sections",
+  "info": {
+    "displayName": "Second Section"
+  },
+  "options": {},
+  "attributes": {
+    "companyMotto": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "buttonName": {
+      "type": "string"
+    }
+  }
+}

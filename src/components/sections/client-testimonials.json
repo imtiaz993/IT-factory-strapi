@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_client_testimonials",
+  "info": {
+    "displayName": "client Testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "clientImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "clientName": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "integer",
+      "required": true
+    },
+    "ratingImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

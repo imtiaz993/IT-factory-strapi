@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_home_heroes",
+  "info": {
+    "displayName": "Home Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "companyType": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

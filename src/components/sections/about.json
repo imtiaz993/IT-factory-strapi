@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_abouts",
+  "info": {
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "sectionDetails": {
+      "type": "richtext",
+      "required": true
+    },
+    "linkName": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

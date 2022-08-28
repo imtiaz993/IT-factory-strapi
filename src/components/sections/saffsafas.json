@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_saffsafas",
+  "info": {
+    "displayName": "saffsafas"
+  },
+  "options": {},
+  "attributes": {
+    "sasad": {
+      "type": "string"
+    },
+    "sdaads": {
+      "type": "string"
+    }
+  }
+}

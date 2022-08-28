@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_contact_details",
+  "info": {
+    "displayName": "Contact Detail"
+  },
+  "options": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string"
+    },
+    "sectionDetails": {
+      "type": "text"
+    }
+  }
+}

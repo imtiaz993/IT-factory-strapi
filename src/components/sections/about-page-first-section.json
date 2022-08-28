@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_about_page_first_sections",
+  "info": {
+    "displayName": "AboutPageFirstSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ScreenDetails": {
+      "displayName": "AboutpageFirstSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.aboutpage-first-section",
+      "required": true
+    }
+  }
+}

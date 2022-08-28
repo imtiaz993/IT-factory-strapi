@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_links",
+  "info": {
+    "displayName": "links",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "path": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

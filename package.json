@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.2.3",
+    "@strapi/plugin-i18n": "4.2.3",
+    "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/strapi": "4.2.3",
+    "better-sqlite3": "7.4.6",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27"
+  },
+  "name": "node-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "author": "A Strapi developer",
+  "strapi": {
+    "uuid": "bf0dea6c-fe9a-4a14-b4a6-21d085568022",
+    "template": "@strapi/template-blog@1.0.0"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "main": "web.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imtiaz993/IT-Factory-Backend.git"
+  },
+  "keywords": [
+    "example"
+  ],
+  "bugs": {
+    "url": "https://github.com/imtiaz993/IT-Factory-Backend/issues"
+  },
+  "homepage": "https://github.com/imtiaz993/IT-Factory-Backend#readme"
+}

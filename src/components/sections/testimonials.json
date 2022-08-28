@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_testimonials",
+  "info": {
+    "displayName": "testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "clientiImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "clientName": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}

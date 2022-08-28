@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_clients",
+  "info": {
+    "displayName": "Client"
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "sectionTitle": {
+      "type": "string"
+    },
+    "Testimonials": {
+      "displayName": "testimonials",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.testimonials"
+    }
+  }
+}

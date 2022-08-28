@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_first_sections",
+  "info": {
+    "displayName": "First Section"
+  },
+  "options": {},
+  "attributes": {
+    "screenName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

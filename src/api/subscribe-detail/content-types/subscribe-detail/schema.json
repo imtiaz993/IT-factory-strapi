@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribe_details",
+  "info": {
+    "singularName": "subscribe-detail",
+    "pluralName": "subscribe-details",
+    "displayName": "Subscribe-Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "displayName": "sub-button",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.sub-button",
+      "required": true
+    }
+  }
+}

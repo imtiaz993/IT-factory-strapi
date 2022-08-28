@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_service_first_sections",
+  "info": {
+    "displayName": "Service First Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "screenName": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

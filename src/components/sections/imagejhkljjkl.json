@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_imagejhkljjkls",
+  "info": {
+    "displayName": "imagejhkljjkl",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imageLink": {
+      "type": "text"
+    }
+  }
+}
